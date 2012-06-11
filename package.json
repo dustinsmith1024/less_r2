@@ -1,0 +1,27 @@
+{
+  "name": "less_r2",
+  "description": "compiles a less file then passes it through r2 for right to left styling",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dustinsmith1024/less_r2",
+  "author": "Dustin Smith",
+  "main": "less_r2.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustinsmith1024/less_r2.git"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "bin": {
+    "less_r2": "bin/less_r2"
+  },
+	"dependencies": {
+		"less", "> 1",
+		"R2": "> 1"
+	},
+  "directories": {
+    "bin": "bin",
+		"examples": "examples"
+  }
+}
